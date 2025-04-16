@@ -5,8 +5,8 @@ on:
   push:
   pull_request:
   workflow_dispatch:
-  schedule:  # run weekly, every Wednesday 05:00
-    - cron: '0 5 * * 3'
+  #schedule:  # run weekly, every Wednesday 05:00
+    #- cron: '0 5 * * 3'
 
 permissions: {}
 
